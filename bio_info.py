@@ -20,7 +20,7 @@ def getHammingDistance(str1, str2):
 
     for i in range(len1):
         if str1[i] != str2[i]:                  # increment distance value
-            dist += 1                           # if not chars is not equal
+            dist += 1                           # if chars is not equal
 
     return dist
 
